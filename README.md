@@ -42,3 +42,12 @@ Se esperan las siguientes funcionalidades para el prototipo
   * *NEW*: cuando se agregan nuevas funcionaliades. 
   * *MOD*: cuando se modifican funcionalidades existentes. 
   * *FIX*: cuando se arreglan errores ya existentes. 
+
+
+### Diagrama UML
+
+* Link: https://drive.google.com/file/d/1sdhf-BwE_gUxeHARaW60CWvAN1cNAui6/view?usp=sharing
+* DIAGRAMA:
+
+![Image](Caso-Huespedes.drawio-2.png)
+
