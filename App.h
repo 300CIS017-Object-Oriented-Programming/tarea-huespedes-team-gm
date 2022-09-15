@@ -21,7 +21,9 @@ private:
 
     unordered_map<string, Huesped*>huespedes;
     unordered_map<string, Propietario*>propietarios;
-    unordered_map<string, Reserva*>reservas;
+    unordered_map<int, Reserva*>reservas;
+
+    int numeroReserva;
 
 public:
 
@@ -29,6 +31,9 @@ public:
 
     void hacerReserva();
     Hogar* AgregarInfoHogar();
+
+    Propietario* buscarPropietario(string id);
+    Huesped* buscarHuesped(string id);
 
 
 

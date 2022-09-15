@@ -16,7 +16,6 @@ class Reserva {
 private:
     string fechaInicio;
     string fechaFin;
-    double calificacion;
     Propietario * propietario;
     Huesped * huesped;
 
@@ -24,7 +23,7 @@ public:
 
     Reserva();
 
-    Reserva(string fechaInicio, string fechaFin, double calificacion, Propietario * propietario, Huesped * huesped);
+    Reserva(string fechaInicio, string fechaFin,Propietario * propietario, Huesped * huesped);
 
     const string &getFechaInicio() const;
 
