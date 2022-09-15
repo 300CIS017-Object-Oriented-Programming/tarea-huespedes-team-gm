@@ -8,6 +8,7 @@
 #include "Persona.h"
 #include "Evaluacion.h"
 #include "Reserva.h"
+#include "Hogar.h"
 #include <unordered_map>
 
 using std::unordered_map;
@@ -26,6 +27,9 @@ public:
     App();
 
     void hacerReserva();
+    Hogar* AgregarInfoHogar();
+
+
 
 };
 
