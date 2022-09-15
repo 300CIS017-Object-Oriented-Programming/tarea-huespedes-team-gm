@@ -50,5 +50,5 @@ Se esperan las siguientes funcionalidades para el prototipo
 * link: https://acortar.link/ftl7ss
 * DIAGRAMA:
 
-![Image](![](../../../Downloads/DiagramaHuespedes.drawio.png))
+![Image](DiagramaHuespedes.png)
 
