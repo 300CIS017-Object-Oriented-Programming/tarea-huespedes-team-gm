@@ -6,11 +6,9 @@
 #define TAREA_HUESPEDES_TEAM_GM_APP_H
 
 
-
 class App {
 
 };
-
 
 
 #endif //TAREA_HUESPEDES_TEAM_GM_APP_H
