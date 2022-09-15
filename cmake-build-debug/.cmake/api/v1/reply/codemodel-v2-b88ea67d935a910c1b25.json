@@ -39,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "AirbnbCol::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-AirbnbCol-Debug-ca44b2d87e7fde3d8133.json",
+					"jsonFile" : "target-AirbnbCol-Debug-260862bb91a58725ff7d.json",
 					"name" : "AirbnbCol",
 					"projectIndex" : 0
 				}
@@ -49,12 +49,12 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/Users/mariajosepa/Desktop/caso-huespedes/tarea-huespedes-team-gm/cmake-build-debug",
-		"source" : "/Users/mariajosepa/Desktop/caso-huespedes/tarea-huespedes-team-gm"
+		"build" : "/Users/victorcely/Documents/tarea-huespedes-team-gm/cmake-build-debug",
+		"source" : "/Users/victorcely/Documents/tarea-huespedes-team-gm"
 	},
 	"version" : 
 	{
 		"major" : 2,
-		"minor" : 3
+		"minor" : 4
 	}
 }
