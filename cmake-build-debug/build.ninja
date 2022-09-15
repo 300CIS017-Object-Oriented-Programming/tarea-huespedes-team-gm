@@ -108,6 +108,12 @@ build CMakeFiles/AirbnbCol.dir/Huesped.cpp.o: CXX_COMPILER__AirbnbCol_Debug /Use
   OBJECT_DIR = CMakeFiles/AirbnbCol.dir
   OBJECT_FILE_DIR = CMakeFiles/AirbnbCol.dir
 
+build CMakeFiles/AirbnbCol.dir/App.cpp.o: CXX_COMPILER__AirbnbCol_Debug /Users/mariajosepa/Desktop/caso-huespedes/tarea-huespedes-team-gm/App.cpp || cmake_object_order_depends_target_AirbnbCol
+  DEP_FILE = CMakeFiles/AirbnbCol.dir/App.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -std=gnu++14
+  OBJECT_DIR = CMakeFiles/AirbnbCol.dir
+  OBJECT_FILE_DIR = CMakeFiles/AirbnbCol.dir
+
 build CMakeFiles/AirbnbCol.dir/Menu.cpp.o: CXX_COMPILER__AirbnbCol_Debug /Users/mariajosepa/Desktop/caso-huespedes/tarea-huespedes-team-gm/Menu.cpp || cmake_object_order_depends_target_AirbnbCol
   DEP_FILE = CMakeFiles/AirbnbCol.dir/Menu.cpp.o.d
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -std=gnu++14
@@ -128,7 +134,7 @@ build CMakeFiles/AirbnbCol.dir/Main.cpp.o: CXX_COMPILER__AirbnbCol_Debug /Users/
 #############################################
 # Link the executable AirbnbCol
 
-build AirbnbCol: CXX_EXECUTABLE_LINKER__AirbnbCol_Debug CMakeFiles/AirbnbCol.dir/Reserva.cpp.o CMakeFiles/AirbnbCol.dir/Evaluacion.cpp.o CMakeFiles/AirbnbCol.dir/Hogar.cpp.o CMakeFiles/AirbnbCol.dir/Persona.cpp.o CMakeFiles/AirbnbCol.dir/Propietario.cpp.o CMakeFiles/AirbnbCol.dir/Huesped.cpp.o CMakeFiles/AirbnbCol.dir/Menu.cpp.o CMakeFiles/AirbnbCol.dir/Main.cpp.o
+build AirbnbCol: CXX_EXECUTABLE_LINKER__AirbnbCol_Debug CMakeFiles/AirbnbCol.dir/Reserva.cpp.o CMakeFiles/AirbnbCol.dir/Evaluacion.cpp.o CMakeFiles/AirbnbCol.dir/Hogar.cpp.o CMakeFiles/AirbnbCol.dir/Persona.cpp.o CMakeFiles/AirbnbCol.dir/Propietario.cpp.o CMakeFiles/AirbnbCol.dir/Huesped.cpp.o CMakeFiles/AirbnbCol.dir/App.cpp.o CMakeFiles/AirbnbCol.dir/Menu.cpp.o CMakeFiles/AirbnbCol.dir/Main.cpp.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1
   OBJECT_DIR = CMakeFiles/AirbnbCol.dir
   POST_BUILD = :

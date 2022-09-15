@@ -8,7 +8,7 @@ Reserva::Reserva() {
 
      fechaInicio = "";
      fechaFin = "";
-     calificacion = 0.0;
+     calificacion = 0.0;0
      propietario = NULL;
      huesped = NULL;
 }
