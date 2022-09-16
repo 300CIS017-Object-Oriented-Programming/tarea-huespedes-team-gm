@@ -8,16 +8,14 @@ Reserva::Reserva() {
 
      fechaInicio = "";
      fechaFin = "";
-     calificacion = 0.0;0
      propietario = NULL;
      huesped = NULL;
 }
 
-Reserva::Reserva(string fechaInicio, string fechaFin, double calificacion, Propietario *propietario, Huesped *huesped) {
+Reserva::Reserva(string fechaInicio, string fechaFin, Propietario *propietario, Huesped *huesped) {
 
     this->fechaInicio = fechaInicio;
     this->fechaFin = fechaFin;
-    this->calificacion = calificacion;
     this->propietario = propietario;
     this->huesped = huesped;
 }
@@ -38,13 +36,6 @@ void Reserva::setFechaFin(const string &fechaFin) {
     Reserva::fechaFin = fechaFin;
 }
 
-double Reserva::getCalificacion() const {
-    return calificacion;
-}
-
-void Reserva::setCalificacion(double calificacion) {
-    Reserva::calificacion = calificacion;
-}
 
 Propietario *Reserva::getPropietario() const {
     return propietario;

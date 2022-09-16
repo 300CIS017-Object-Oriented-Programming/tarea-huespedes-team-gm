@@ -20,23 +20,35 @@ using namespace std;
 
 class App {
 
+
 private:
 
     unordered_map<string, Huesped*>huespedes;
     unordered_map<string, Propietario*>propietarios;
-    unordered_map<string, Reserva*>reservas;
+    unordered_map<int, Reserva*>reservas;
+
+    int numeroReserva;
 
 public:
 
     App();
 
     void hacerReserva();
+
     void AgregarInfoHogar();
     void AgregarInfoHogarDir(string);
     void AgregarInfoHogarCamas(string);
     void AgregarInfoHogarBebes(string);
     void AgregarInfoHogarDescripcion(string);
     void listaPersonasSistema();
+
+    //Hogar* AgregarInfoHogar();
+
+    Propietario* buscarPropietario(string id);
+    Huesped* buscarHuesped(string id);
+
+
+
 
 
 };

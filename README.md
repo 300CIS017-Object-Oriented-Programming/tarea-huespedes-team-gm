@@ -47,7 +47,8 @@ Se esperan las siguientes funcionalidades para el prototipo
 ### Diagrama UML
 
 * Link: https://drive.google.com/file/d/1sdhf-BwE_gUxeHARaW60CWvAN1cNAui6/view?usp=sharing
+* link: https://acortar.link/ftl7ss
 * DIAGRAMA:
 
-![Image](Caso-Huespedes.drawio-2.png)
+![Image](DiagramaHuespedes.png)
 
