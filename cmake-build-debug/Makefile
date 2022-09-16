@@ -129,6 +129,30 @@ AirbnbCol/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirbnbCol.dir/build.make CMakeFiles/AirbnbCol.dir/build
 .PHONY : AirbnbCol/fast
 
+App.o: App.cpp.o
+.PHONY : App.o
+
+# target to build an object file
+App.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirbnbCol.dir/build.make CMakeFiles/AirbnbCol.dir/App.cpp.o
+.PHONY : App.cpp.o
+
+App.i: App.cpp.i
+.PHONY : App.i
+
+# target to preprocess a source file
+App.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirbnbCol.dir/build.make CMakeFiles/AirbnbCol.dir/App.cpp.i
+.PHONY : App.cpp.i
+
+App.s: App.cpp.s
+.PHONY : App.s
+
+# target to generate assembly for a file
+App.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirbnbCol.dir/build.make CMakeFiles/AirbnbCol.dir/App.cpp.s
+.PHONY : App.cpp.s
+
 Evaluacion.o: Evaluacion.cpp.o
 .PHONY : Evaluacion.o
 
@@ -330,6 +354,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... AirbnbCol"
+	@echo "... App.o"
+	@echo "... App.i"
+	@echo "... App.s"
 	@echo "... Evaluacion.o"
 	@echo "... Evaluacion.i"
 	@echo "... Evaluacion.s"

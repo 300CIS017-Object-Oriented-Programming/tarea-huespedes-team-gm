@@ -1,6 +1,6 @@
 
 #include "Propietario.h"
-
+#include <iostream>
 
 Propietario::Propietario() : Persona() {
 
