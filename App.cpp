@@ -4,8 +4,7 @@
 #include <iostream>
 #include "App.h"
 
-using std::cout;
-using std::cin;
+
 
 App::App() {
 

@@ -14,8 +14,8 @@
 using std::unordered_map;
 using std::string;
 using std::vector;
-using std::endl;
-using std::cout;
+
+
 using namespace std;
 
 class App {

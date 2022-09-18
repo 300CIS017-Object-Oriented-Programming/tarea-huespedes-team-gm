@@ -2,8 +2,6 @@
 #include <iostream>
 
 
-using std::cout;
-using std::cin;
 
 void menu(App & app) {
     int opc = 0;
@@ -11,6 +9,7 @@ void menu(App & app) {
         cout << "\n ****Bienvenidos ****\n";
         cout << "1. Propietario agrega información del hogar \n";
         cout << "2. Lista de personas inscritas \n";
+        cout << "3. Crear una reserva\n";
         cout << "-1. Salir \n";
 
         cin >> opc;
@@ -21,6 +20,11 @@ void menu(App & app) {
                 break;
             case 2:
                 app.listaPersonasSistema();
+                break;
+            case 3:
+                app.hacerReserva();
+                break;
+            default:
                 break;
         }
     } while (opc != 1);
