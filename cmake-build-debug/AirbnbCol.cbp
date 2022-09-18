@@ -80,6 +80,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/victorcely/Documents/tarea-huespedes-team-gm/App.cpp">
+			<Option target="AirbnbCol"/>
+		</Unit>
+		<Unit filename="/Users/victorcely/Documents/tarea-huespedes-team-gm/App.h">
+			<Option target="AirbnbCol"/>
+		</Unit>
 		<Unit filename="/Users/victorcely/Documents/tarea-huespedes-team-gm/Evaluacion.cpp">
 			<Option target="AirbnbCol"/>
 		</Unit>

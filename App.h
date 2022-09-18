@@ -12,7 +12,11 @@
 #include <unordered_map>
 
 using std::unordered_map;
-
+using std::string;
+using std::vector;
+using std::endl;
+using std::cout;
+using namespace std;
 
 class App {
 
@@ -30,10 +34,19 @@ public:
     App();
 
     void hacerReserva();
-    Hogar* AgregarInfoHogar();
+
+    void AgregarInfoHogar();
+    void AgregarInfoHogarDir(string);
+    void AgregarInfoHogarCamas(string);
+    void AgregarInfoHogarBebes(string);
+    void AgregarInfoHogarDescripcion(string);
+    void listaPersonasSistema();
+
+    //Hogar* AgregarInfoHogar();
 
     Propietario* buscarPropietario(string id);
     Huesped* buscarHuesped(string id);
+
 
 
 
