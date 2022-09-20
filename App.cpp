@@ -196,6 +196,9 @@ void App::eliminarReserva() {//Funcion a liberar una reserva dentro del sistema
         cout << "La reserva con fecha final" << fechaFinAux << "sera liberada del sistema" << endl;
         delete reservas.at(fechaFinAux);
     }
+    else {
+        cout << "La fecha no coincide con la fecha final de alguna reserva";
+    }
 }
 
 void App::agregarEvaluaciones() {
