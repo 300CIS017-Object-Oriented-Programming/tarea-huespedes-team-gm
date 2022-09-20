@@ -182,8 +182,34 @@ void App::listaPersonasSistema(){
             for (auto itr: huespedes){
                 cout<<itr.second->getNombre();
             }
-
         }
     }
+}
 
+void App::eliminarReserva() {//Funcion a liberar una reserva dentro del sistema
+    string fechaFinAux;
+    cout << "Ingresa la fecha fin de la reserva a liberar" << endl;
+    cin.ignore();
+    getline(cin, fechaFinAux);
+
+    if (reservas.at(fechaFinAux)->getFechaFin() == fechaFinAux){
+        cout << "La reserva con fecha final" << fechaFinAux << "sera liberada del sistema" << endl;
+        delete reservas.at(fechaFinAux);
+    }
+}
+
+void App::agregarEvaluaciones() {
+    //FIX: Arreglar la parte de la calificacion por si es primera vez o nueva;
+    string fecha;
+    double calificacion;
+    Propietario * evaluado;
+    Huesped * evaluador;
+
+    cout << "Digite la fecha para la evaluacion" << endl;
+    cin.ignore();
+    getline(cin, fecha);
+
+    cout << "digite cual es la calificacion que se le va a adjudicar al alojamiento" << endl; cin >> calificacion;
+    cout << "Digite a quien va a dirigirse esta evaluacion: " << endl; cin >> propietarios.at(evaluado);
+    cout << "Digite su ID" << endl; cin >> huespedes.at(evaluador)
 }

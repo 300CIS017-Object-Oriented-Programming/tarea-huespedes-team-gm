@@ -10,6 +10,7 @@
 #include "Reserva.h"
 #include "Hogar.h"
 #include <unordered_map>
+#include <string.h>
 
 using std::unordered_map;
 using std::string;
@@ -41,8 +42,9 @@ public:
     void AgregarInfoHogarBebes(string);
     void AgregarInfoHogarDescripcion(string);
     void listaPersonasSistema();
-
+    void eliminarReserva();
     //Hogar* AgregarInfoHogar();
+    void agregarEvaluaciones();
 
     Propietario* buscarPropietario(string id);
     Huesped* buscarHuesped(string id);
