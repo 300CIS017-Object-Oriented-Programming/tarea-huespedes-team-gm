@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="AirbnbCol"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/victorcely/Documents/tarea-huespedes-team-gm/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/victorcely/Documents/tarea-huespedes-team-gm/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/victorcely/Documents/tarea-huespedes-team-gm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/victorcely/Documents/tarea-huespedes-team-gm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/victorcely/Documents/tarea-huespedes-team-gm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="AirbnbCol">
+				<Option output="/Users/victorcely/Documents/tarea-huespedes-team-gm/cmake-build-debug/AirbnbCol" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/victorcely/Documents/tarea-huespedes-team-gm/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/victorcely/Documents/tarea-huespedes-team-gm/cmake-build-debug/Makefile&quot;  VERBOSE=1 AirbnbCol"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/victorcely/Documents/tarea-huespedes-team-gm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/victorcely/Documents/tarea-huespedes-team-gm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/victorcely/Documents/tarea-huespedes-team-gm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="AirbnbCol/fast">
+				<Option output="/Users/victorcely/Documents/tarea-huespedes-team-gm/cmake-build-debug/AirbnbCol" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/victorcely/Documents/tarea-huespedes-team-gm/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/victorcely/Documents/tarea-huespedes-team-gm/cmake-build-debug/Makefile&quot;  VERBOSE=1 AirbnbCol/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/victorcely/Documents/tarea-huespedes-team-gm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/victorcely/Documents/tarea-huespedes-team-gm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/victorcely/Documents/tarea-huespedes-team-gm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/victorcely/Documents/tarea-huespedes-team-gm/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/victorcely/Documents/tarea-huespedes-team-gm/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/victorcely/Documents/tarea-huespedes-team-gm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/victorcely/Documents/tarea-huespedes-team-gm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/victorcely/Documents/tarea-huespedes-team-gm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/victorcely/Documents/tarea-huespedes-team-gm/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/victorcely/Documents/tarea-huespedes-team-gm/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/victorcely/Documents/tarea-huespedes-team-gm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/victorcely/Documents/tarea-huespedes-team-gm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/victorcely/Documents/tarea-huespedes-team-gm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/victorcely/Documents/tarea-huespedes-team-gm/App.cpp">
+			<Option target="AirbnbCol"/>
+		</Unit>
+		<Unit filename="/Users/victorcely/Documents/tarea-huespedes-team-gm/App.h">
+			<Option target="AirbnbCol"/>
+		</Unit>
+		<Unit filename="/Users/victorcely/Documents/tarea-huespedes-team-gm/Evaluacion.cpp">
+			<Option target="AirbnbCol"/>
+		</Unit>
+		<Unit filename="/Users/victorcely/Documents/tarea-huespedes-team-gm/Evaluacion.h">
+			<Option target="AirbnbCol"/>
+		</Unit>
+		<Unit filename="/Users/victorcely/Documents/tarea-huespedes-team-gm/Hogar.cpp">
+			<Option target="AirbnbCol"/>
+		</Unit>
+		<Unit filename="/Users/victorcely/Documents/tarea-huespedes-team-gm/Hogar.h">
+			<Option target="AirbnbCol"/>
+		</Unit>
+		<Unit filename="/Users/victorcely/Documents/tarea-huespedes-team-gm/Huesped.cpp">
+			<Option target="AirbnbCol"/>
+		</Unit>
+		<Unit filename="/Users/victorcely/Documents/tarea-huespedes-team-gm/Huesped.h">
+			<Option target="AirbnbCol"/>
+		</Unit>
+		<Unit filename="/Users/victorcely/Documents/tarea-huespedes-team-gm/Main.cpp">
+			<Option target="AirbnbCol"/>
+		</Unit>
+		<Unit filename="/Users/victorcely/Documents/tarea-huespedes-team-gm/Menu.cpp">
+			<Option target="AirbnbCol"/>
+		</Unit>
+		<Unit filename="/Users/victorcely/Documents/tarea-huespedes-team-gm/Persona.cpp">
+			<Option target="AirbnbCol"/>
+		</Unit>
+		<Unit filename="/Users/victorcely/Documents/tarea-huespedes-team-gm/Persona.h">
+			<Option target="AirbnbCol"/>
+		</Unit>
+		<Unit filename="/Users/victorcely/Documents/tarea-huespedes-team-gm/Propietario.cpp">
+			<Option target="AirbnbCol"/>
+		</Unit>
+		<Unit filename="/Users/victorcely/Documents/tarea-huespedes-team-gm/Propietario.h">
+			<Option target="AirbnbCol"/>
+		</Unit>
+		<Unit filename="/Users/victorcely/Documents/tarea-huespedes-team-gm/Reserva.cpp">
+			<Option target="AirbnbCol"/>
+		</Unit>
+		<Unit filename="/Users/victorcely/Documents/tarea-huespedes-team-gm/Reserva.h">
+			<Option target="AirbnbCol"/>
+		</Unit>
+		<Unit filename="/Users/victorcely/Documents/tarea-huespedes-team-gm/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

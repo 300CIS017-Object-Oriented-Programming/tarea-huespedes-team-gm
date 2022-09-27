@@ -1,0 +1,14 @@
+# ninja log v5
+14	2424	1663535995249214361	CMakeFiles/AirbnbCol.dir/Huesped.cpp.o	1e3b8b2388d2bba9
+0	2434	1663535995245103693	CMakeFiles/AirbnbCol.dir/Reserva.cpp.o	535d9e95322ce47e
+4	2436	1663535995253610497	CMakeFiles/AirbnbCol.dir/Hogar.cpp.o	5424658291231ab0
+7	2438	1663535995247377838	CMakeFiles/AirbnbCol.dir/Persona.cpp.o	1fcbafbe29241ed8
+2	2528	1663535995356254509	CMakeFiles/AirbnbCol.dir/Evaluacion.cpp.o	d268d4c1dfa3020f
+11	2928	1663535995753661745	CMakeFiles/AirbnbCol.dir/Propietario.cpp.o	a68c4ccb7242ee06
+2430	4945	1663535997773633443	CMakeFiles/AirbnbCol.dir/App.cpp.o	464a061699a9ca52
+7	1861	1663536236091039525	CMakeFiles/AirbnbCol.dir/App.cpp.o	464a061699a9ca52
+7	5448	1663536279815967912	CMakeFiles/AirbnbCol.dir/App.cpp.o	464a061699a9ca52
+6	2721	1663536343238635268	CMakeFiles/AirbnbCol.dir/App.cpp.o	464a061699a9ca52
+11	3922	1663536363282728010	CMakeFiles/AirbnbCol.dir/Main.cpp.o	5d30f8770b2fe405
+10	4670	1663536364025119125	CMakeFiles/AirbnbCol.dir/App.cpp.o	464a061699a9ca52
+4670	4865	1663536364233030941	AirbnbCol	cf484a7a9e0cc2e9
