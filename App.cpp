@@ -207,12 +207,30 @@ void App::agregarEvaluaciones() {
     double calificacion;
     Propietario * evaluado;
     Huesped * evaluador;
+    int aux;
 
-    cout << "Digite la fecha para la evaluacion" << endl;
-    cin.ignore();
-    getline(cin, fecha);
+    cout << "Primera vez o Nueva reserva? 1. Primera vez 2. Nueva reserva" << endl; cin >> aux;
 
-    cout << "digite cual es la calificacion que se le va a adjudicar al alojamiento" << endl; cin >> calificacion;
-    cout << "Digite a quien va a dirigirse esta evaluacion: " << endl; cin >> propietarios.at(evaluado);
-    cout << "Digite su ID" << endl; cin >> huespedes.at(evaluador)
-}
+    //FIX: Arreglar las entradas de datos
+
+    if (aux == 1){
+        cout << "Digite la fecha para la evaluacion" << endl;
+        cin.ignore();
+        getline(cin, fecha);
+
+        cout << "digite cual es la calificacion que se le va a adjudicar al alojamiento" << endl; cin >> Evaluacion->calificacion = calificacion;
+        cout << "Digite a quien va a dirigirse esta evaluacion: " << endl; cin >> evaluado;
+        cout << "Digite su ID" << endl; cin >> evaluador;
+    }
+    else {
+        cout << "Digite la fecha para la evaluacion" << endl;
+        cin.ignore();
+        getline(cin, fecha);
+
+        cout << "digite cual es la calificacion que se le va a adjudicar al alojamiento" << endl; cin >> calificacion;
+        calificacion = (Evaluacion.at(calificacion) + calificacion)/2
+        cout << "Digite a quien va a dirigirse esta evaluacion: " << endl; cin >> propietarios.at(evaluado);
+        cout << "Digite su ID" << endl; cin >> huespedes.at(evaluador);
+    }
+    }
+
